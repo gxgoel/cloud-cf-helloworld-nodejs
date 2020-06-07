@@ -1,7 +1,4 @@
-  cloudFoundryDeploy:
-    deployTool: 'mtaDeployPlugin'
-    deployType: 'standard'
-    cloudFoundry:
-      org: '<your-organisation>'
-      space: '<your-space>'
-      credentialsId: 'CF_CREDENTIALSID'
+general:
+steps:
+  mtaBuild:
+    buildTarget: 'CF'
