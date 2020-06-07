@@ -11,6 +11,6 @@ modules:
     deployTool: 'mtaDeployPlugin'
     deployType: 'standard'
     cloudFoundry:
-      org: '<your-organisation>'
-      space: '<your-space>'
+      org: 'd7caace6trial'
+      space: 'dev'
       credentialsId: 'CF_CREDENTIALSID'
