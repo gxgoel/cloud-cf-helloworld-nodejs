@@ -7,3 +7,10 @@ modules:
   - name: piper.node.hello.world
     type: nodejs
     path: .
+    cloudFoundryDeploy:
+    deployTool: 'mtaDeployPlugin'
+    deployType: 'standard'
+    cloudFoundry:
+      org: '<your-organisation>'
+      space: '<your-space>'
+      credentialsId: 'CF_CREDENTIALSID'
